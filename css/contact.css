@@ -1,0 +1,150 @@
+/* One */
+
+.contact .one{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .one .title {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin: 0% 2%;
+}
+
+.contact .one .title p1 {
+    font-family: Amsterdam;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact .one .title p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.contact .one .maps {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 30px;
+}
+
+.contact .one .maps iframe {
+    display: block;
+    width: 75.5vw;
+    height: 42.5vw;
+    border: none;
+}
+
+.contact .one .content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    padding: 20px;
+}
+
+.contact .one .content .container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 30%;
+}
+
+.contact .one .content .container .info {
+    display: flex;
+    align-items: center;
+    height: 30px;
+    width: 100%;
+}
+
+.contact .one .content .container .info p {
+    font-family: Lexend;
+    font-size: 16px;
+}
+
+.contact .one .content .container .info a img {
+    height: 20px;
+    padding-left: 10px
+}
+
+/* Two */
+
+.contact .two{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 20px;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact .two .title {
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin: 0% 2%;
+}
+
+.contact .two .title p1 {
+    font-family: Amsterdam;
+    text-align: center;
+    font-size: 40px;
+}
+
+.contact .two .title p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.contact .two .resume {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 75.5vw;
+    margin-top: 30px;
+}
+
+/* Responsive */
+
+@media screen and (max-width: 800px) {
+    .contact .one .title p1, .contact .two .title p1,
+    .contact .one .title p2, .contact .two .title p2 {
+        font-size: 35px;
+    }
+    
+    .contact .one .title p2, .contact .two .title p2, .contact .four .title p2 {
+        margin-top:-10px;
+    }
+
+    .contact .one .content {
+        flex-direction: column;
+    }
+
+    .contact .one .content .container {
+        width: 80%;
+    }
+
+    .contact .one .content .container .info{
+        align-items: center;
+        justify-content: center;
+    }
+}
+

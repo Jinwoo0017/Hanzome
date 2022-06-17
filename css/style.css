@@ -1,0 +1,21 @@
+/* General */
+
+.home, .about, .credentials, .hobbies, .contact {
+    position: relative;
+    display: block;
+    width: 90%;
+    background: #FFFFFF;
+    transition: 0s ease-in-out;
+    margin: -10% 5% 5% 5%;
+}
+
+.about, .credentials, .hobbies, .contact {
+    display: none;
+    opacity: 0;
+}
+
+
+
+
+
+

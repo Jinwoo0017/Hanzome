@@ -1,0 +1,257 @@
+/* One */
+    .home .one{
+        display: flex;
+        width: 100%;
+        padding-top: 40px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .one .content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        margin-left: 2%;
+    }
+
+    .home .one .content p1 {
+        font-family: Amsterdam;
+        font-size: 40px;
+    }
+
+    .home .one .content p2 {
+        font-family: Valorant;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .home .one .content img {
+        display:none;
+        width: 70%;
+        margin-top:20px;
+    }
+
+    .home .one .content p {
+        font-family: Lexend;
+        width: 80%;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .home .one .content a {
+        font-family: Lexend;
+        width: 80%;
+        text-align: right;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .home .one .content a:hover {
+        text-decoration: underline;
+    }
+
+    .home .one .display-image {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        margin: 0 2%;
+    }
+
+    .home .one .display-image img {
+        width: 90%;
+    }
+
+/* Two */
+
+    .home .two{
+        display: flex;
+        flex-direction: row-reverse;
+        width: 100%;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .two .content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        margin-right: 2%;
+    }
+
+    .home .two .content p1 {
+        font-family: Amsterdam;
+        font-size: 40px;
+    }
+
+    .home .two .content p2 {
+        font-family: Valorant;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .home .two .content img {
+        display:none;
+        width: 70%;
+        margin-top:20px;
+    }
+
+    .home .two .content p {
+        font-family: Lexend;
+        width: 80%;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .home .two .content a {
+        font-family: Lexend;
+        width: 80%;
+        text-align: right;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .home .two .content a:hover {
+        text-decoration: underline;
+    }
+
+    .home .two .display-image {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        margin: 0 2%;
+    }
+
+    .home .two .display-image img {
+        width: 100%;
+    }
+
+/* Three */
+
+    .home .three{
+        display: flex;
+        width: 100%;
+        padding-top: 60px;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .home .three .content {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: #000000;
+        margin-left: 2%;
+    }
+
+    .home .three .content p1 {
+        font-family: Amsterdam;
+        font-size: 40px;
+    }
+
+    .home .three .content p2 {
+        font-family: Valorant;
+        font-size: 40px;
+        margin-top: -20px;
+    }
+
+    .home .three .content img {
+        display:none;
+        width: 70%;
+        margin-top:20px;
+    }
+
+    .home .three .content p {
+        font-family: Lexend;
+        width: 80%;
+        text-align: justify;
+        font-size: 16px;
+        margin-top: 20px;
+    }
+
+    .home .three .content a {
+        font-family: Lexend;
+        width: 80%;
+        text-align: right;
+        font-size: 16px;
+        margin-top: 20px;
+        color: #000000;
+        text-decoration: none;
+    }
+
+    .home .three .content a:hover {
+        text-decoration: underline;
+    }
+
+    .home .three .display-image {
+        display: flex;
+        justify-content: center;
+        align-content: center;
+        width: 50%;
+        margin: 0 2%;
+    }
+
+    .home .three .display-image img {
+        width: 90%;
+    }
+
+/* Responsive */
+    @media screen and (max-width: 800px) {
+        .home .one .content,  .home .two .content, .home .three .content{
+            width: 96%;
+        }
+
+        .home .one .content img, .home .two .content img, .home .three .content img {
+            display: block;
+        }
+
+        .home .one .display-image, .home .two .display-image, .home .three .display-image {
+            display: none;
+        }
+
+        .home .one .content p1, .home .one .content p2,
+        .home .two .content p1, .home .two .content p2,
+        .home .three .content p1, .home .three .content p2 {
+            font-size: 35px;
+        }
+
+        .home .one .content p2, .home .two .content p2,
+        .home .three .content p2 {
+            margin-top:-10px;
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .home .one .content p1, .home .one .content p2,
+        .home .two .content p1, .home .two .content p2,
+        .home .three .content p1, .home .three .content p2 {
+            font-size: 20px;
+        }
+
+        .home .one .content p2, .home .two .content p2,
+        .home .three .content p2 {
+            margin-top:-5px;
+        }
+
+        .home .one .content p, .home .one .content a,
+        .home .two .content p, .home .two .content a,
+        .home .three .content p, .home .three .content a {
+            font-size: 12px;
+        }
+    }

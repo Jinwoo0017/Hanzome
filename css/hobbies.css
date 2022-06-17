@@ -1,0 +1,401 @@
+/* One */
+.hobbies .one{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies .one .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hobbies .one .content p1 {
+    font-family: Amsterdam;
+    font-size: 40px;
+}
+
+.hobbies .one .content p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.hobbies .one .content img {
+    display:none;
+    width: 70%;
+    margin-top:20px;
+}
+
+.hobbies .one .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hobbies .one .display-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.hobbies .one .display-image img {
+    width: 80%;
+}
+
+/* Two */
+
+.hobbies .two{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies .two .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-right: 2%;
+}
+
+.hobbies .two .content p1 {
+    font-family: Amsterdam;
+    font-size: 40px;
+}
+
+.hobbies .two .content p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.hobbies .two .content img {
+    display:none;
+    width: 70%;
+    margin-top:20px;
+}
+
+.hobbies .two .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.hobbies .two .display-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.hobbies .two .display-image img {
+    width: 80%;
+}
+
+/* Three */
+
+.hobbies .three{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies .three .title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hobbies .three .title p1 {
+    font-family: Amsterdam;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hobbies .three .title p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.hobbies .three .content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hobbies .three .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Four */
+
+.hobbies .four{
+    display: flex;
+    width: 96%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+    margin: 0% 2%;
+}
+
+.hobbies .four iframe {
+    display: block;
+    width: 75.5vw;
+    height: 42.5vw;
+}
+
+/* Five */
+
+.hobbies .five{
+    display: flex;
+    flex-direction: row-reverse;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies .five .title {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hobbies .five .title p1 {
+    font-family: Amsterdam;
+    text-align: center;
+    font-size: 40px;
+}
+
+.hobbies .five .title p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    text-align: center;
+    margin-top: -20px;
+}
+
+.hobbies .five .content{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+}
+
+.hobbies .five .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Six */
+
+.hobbies .six {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.hobbies .six .iframe {
+    width: 60%;
+}
+
+.hobbies .six .iframe iframe {
+    width: 100%;
+    height: 380px;
+    border-radius: 12px;
+}
+
+.hobbies .six .pre-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;   
+    width: 60%;
+    margin-top: 20px;
+}
+
+.hobbies .six .pre-next a .previous {
+    height: 30px;
+    transform:rotate(-90deg);
+}
+
+.hobbies .six .pre-next a .next{
+    height: 30px;
+    transform:rotate(90deg);
+}
+
+.hobbies .six .playlist {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    margin-top:20px;
+}
+
+.hobbies .six .playlist a {
+    width: 96%;
+    text-decoration: none;
+    color: #000000;
+    padding: 2%;
+}
+
+.hobbies .six .playlist a.active {
+    background: #808080;
+}
+
+.hobbies .six .playlist a .song {
+    display: flex;
+    width: 100%;
+}
+
+.hobbies .six .playlist a .song .number {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 10%;
+}
+
+.hobbies .six .playlist a .song .number p {
+    font-family: Valorant;
+    font-size: 20px;
+}
+
+.hobbies .six .playlist a .song .title-author {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.hobbies .six .playlist a .song .title-author p {
+    font-family: Lexend;
+    font-size: 15px;
+}
+
+
+
+
+/* Responsive */
+    @media screen and (max-width: 800px) {
+        .hobbies .one .content,  .hobbies .two .content {
+            width: 96%;
+        }
+
+        .hobbies .one .content img, .hobbies .two .content img {
+            display: block;
+        }
+
+        .hobbies .one .display-image, .hobbies .two .display-image {
+            display: none;
+        }
+
+        .hobbies .one .content p1, .hobbies .one .content p2,
+        .hobbies .two .content p1, .hobbies .two .content p2 {
+            font-size: 35px;
+        }
+
+        .hobbies .one .content p2, .hobbies .two .content p2 {
+            margin-top:-10px;
+        }
+
+        .hobbies .one .content p, .hobbies .two .content p,
+        .hobbies .three .content p, .hobbies .five .content p {
+            font-size:12px;
+        }
+
+        .hobbies .three, .hobbies .five {
+            flex-direction: column;
+        }
+
+        .hobbies .three .title, .hobbies .three .content,
+        .hobbies .five .title, .hobbies .five .content {
+            width: 96%;
+        }
+
+        .hobbies .three .title p1, .hobbies .five .title p1,
+        .hobbies .three .title p2, .hobbies .five .title p2 {
+            font-size: 35px;
+        }
+        
+        .hobbies .three .title p2, .hobbies .five .title p2 {
+            margin-top:-10px;
+        }
+
+        .hobbies .six .iframe, .hobbies .six .pre-next, .hobbies .six .playlist  {
+            width: 90%;
+        }
+    }
+
+    @media screen and (max-width: 369px) {
+        .hobbies .six .iframe iframe {
+            height: 80px; 
+        }
+    }
+
+    @media screen and (max-width: 350px) {
+        .hobbies .one .content p1, .hobbies .one .content p2,
+        .hobbies .two .content p1, .hobbies .two .content p2 {
+            font-size: 20px;
+        }
+
+        .hobbies .one .content p2, .hobbies .two .content p2 {
+            margin-top:-5px;
+        }
+
+        .hobbies .three .title p1, .hobbies .five .title p1,
+        .hobbies .three .title p2, .hobbies .five .title p2 {
+            font-size: 20px;
+        }
+        
+        .hobbies .three .title p2, .hobbies .five .title p2 {
+            margin-top:-5px;
+        }
+
+        .hobbies .six .playlist a .song .number p {
+            font-size: 15px;
+        }
+        
+        .hobbies .six .playlist a .song .title-author p {
+            font-size: 10px;
+        }
+    }
+

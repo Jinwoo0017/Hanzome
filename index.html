@@ -1,0 +1,1149 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Hanzome</title>
+        <link rel="icon" href="./img/logo/logo.png">
+        <link rel="stylesheet" href="./css/header.css">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/home.css">
+        <link rel="stylesheet" href="./css/about.css">
+        <link rel="stylesheet" href="./css/credentials.css">
+        <link rel="stylesheet" href="./css/hobbies.css">
+        <link rel="stylesheet" href="./css/contact.css">
+        <link rel="stylesheet" href="./css/footer.css">
+        <script src="./javascript/header.js"></script>
+        <script src="./javascript/credentials.js"></script>
+        <script src="./javascript/hobbies.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+
+    <body id ="body">
+        <!-- TopNav -->
+
+        <div class = "topnav">        
+            <div class = "nav">
+                <div class = "burger">
+                    <a href="javascript:void(0)" id = "open" onclick = "SideBarOpen()">
+                        <img id = "burger" src = "./img/icons/Burger.png">
+                    </a>     
+                </div>
+
+                <div class = "title">
+                    <a href = "#home" id = "anchor" onclick = "home()">
+                        HANZOME
+                    </a>
+                </div>
+
+                <div class = "navbtns">
+                    <a href = "#about" id = "anchor1" onclick = "about()">
+                        <b>ABOUT</b>
+                    </a>
+
+                    <a href = "#credentials" id = "anchor2" onclick = "credentials()">
+                        <b>CREDENTIALS</b>
+                    </a>
+
+                    <a href = "#hobbies" id = "anchor3" onclick = "hobbies()">
+                        <b>HOBBIES</b>
+                    </a>
+
+                    <a href = "#contact" id = "anchor4" onclick = "contact()">
+                        <b>CONTACT ME</b>
+                    </a>
+
+                    <!-- Light/Dark Mode -->
+                    <a href = "javascript:void(0)" id = "toggle" onclick ="DarkMode()">
+                        <img  id = "moonsun" src = "img/icons/Moon.png"></img>
+                    </a>
+                </div>
+            </div>
+
+            <div class = "display">
+                <img  id = "background" src = "./img/background/Light Mode.png">
+            </div>
+        </div>
+
+        <!-- SideNav -->
+        
+        <div class = "sidenav" id = "sidenav">
+            <div class = "close">
+                <a href="javascript:void(0)" id = "close" onclick = "SideBarClose()">
+                    <img id = "x" src = "./img/icons/X.png">
+                </a>     
+            </div>
+
+            <div class = "toggle">
+                <!-- Light/Dark Mode -->
+                <a href = "javascript:void(0)" id = "toggle" onclick ="DarkMode()">
+                    <img  id = "moonsun" src = "img/icons/Moon.png"></img>
+                </a>
+            </div>
+
+            <div class = "nav">
+                <div class = "title" id = "side-title">
+                    <a href = "#home" id = "side-anchor" onclick = "home()">
+                        HANZOME
+                    </a>
+                </div>
+
+                <div class = "navbtns">
+                    <a href = "#about" id = "anchor5" onclick = "about()">
+                        <b>ABOUT</b>
+                    </a>
+    
+                    <a href = "#credentials" id = "anchor6" onclick = "credentials()">
+                        <b>CREDENTIALS</b>
+                    </a>
+    
+                    <a href = "#hobbies" id = "anchor7" onclick = "hobbies()">
+                        <b>HOBBIES</b>
+                    </a>
+    
+                    <a href = "#contact" id = "anchor8" onclick = "contact()">
+                        <b>CONTACT ME</b>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <div class = "filter" id = "filter" onclick = "SideBarClose()">
+        </div>
+
+        <!-- Scroll Up -->
+
+        <a href = "javascript:void(0)" onclick = "ScrollUp()">
+            <div class = "scroll-up">
+                <img id = "scroll-up" src = "./img/icons/Scroll.png">
+            </div>
+        </a>
+        
+
+        <!-- Home -->
+
+        <div class = "home" id = "home">
+            <div class = "one">
+                <div class = "content" id = "text">
+                    <p1> Get to know someone</p1>
+                    
+                    <p2> HANZOME</p2>
+
+                    <img src = "./img/display/A1.png">
+
+                    <p>
+                        Youngest son of Mr. Antonio C. Baga and Mrs. Yolanda U. Baga, born in November 20, 2002 at Muntinlupa City.
+                    </p>
+
+                    <a href = "#about" id = "text" onclick = "about()">
+                        See More...
+                    </a>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/display/A1.png">
+                </div>
+            </div>
+
+            <div class = "two">
+                <div class = "content" id = "text">
+                    <p1> Non-stop Striving</p1>
+                    
+                    <p2> FOR THE FUTURE</p2>
+
+                    <img src = "./img/display/C1.png">
+
+                    <p>
+                        Continuously striving to be a better quizzer, a board exam topnotcher, and a successful engineer in the future!
+                    </p>
+
+                    <a href = "#credentials" id = "text" onclick = "credentials()">
+                        See More...
+                    </a>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/display/C1.png">
+                </div>
+            </div>
+
+            <div class = "three">
+                <div class = "content" id = "text">
+                    <p1> Do what you Love</p1>
+                    
+                    <p2> AND HAVE FUN </p2>
+
+                    <img src = "./img/display/H1.png">
+
+                    <p>
+                        In life there's a lot of ups and downs, we can feel tired but we must not quit but know how to rest, because there is no success without failure.
+                    </p>
+
+                    <a href = "#hobbies" id = "text" onclick = "hobbies()">
+                        See More...
+                    </a>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/display/H1.png">
+                </div>
+            </div>
+
+            <div class = "footer">
+                <div class = "icons">
+                    <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                        <img id = "email" src="./img/icons/1.png">
+                    </a>
+    
+                    <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                        <img id = "fb" src="./img/icons/2.png">
+                    </a>
+    
+                    <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                        <img id = "msgr" src="./img/icons/3.png">
+                    </a>
+    
+                    <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                        <img id = "ig" src="./img/icons/4.png">
+                    </a>
+    
+                    <a href = "sms:+639566546047" target="_blank">
+                        <img id = "sms" src="./img/icons/5.png">
+                    </a>
+    
+                    <a href = "tel:+639566546047" target="_blank">
+                        <img id = "call" src="./img/icons/6.png">
+                    </a>
+                </div>
+
+                <div class = "copyright" id = "text">
+                    Copyright © 2022 All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+        <!-- About -->
+
+        <div class = "about" id = "about">
+            <div class = "one">
+                <div class = "content" id = "text">
+                    <p1> Get to know someone</p1>
+                    
+                    <p2> HANZOME</p2>
+
+                    <img src = "./img/display/A1.png">
+
+                    <p>
+                        Hanz U. Baga is the youngest son of Mr. Antonio C. Baga and Mrs. Yolanda U. Baga, 
+                        born in November 20, 2002 at Muntinlupa City.
+                    </p>
+
+                    <p>
+                        Currently taking Bachelor of Science in Electronics Engineering (BS-ECE) in Technological 
+                        University of the Philippines Manila.
+                    </p>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/display/A1.png">
+                </div>
+            </div>
+
+            <div class = "two">
+                <div class = "content" id = "text">
+                    <p1> Pursue for Excellence</p1>
+                    
+                    <p2> and Sucess will chase you down</p2>
+
+                    <p>
+                        I've always believed that in life, we don't need to chase for success; 
+                        excel at the very thing we want and success will come to us.
+                    </p>
+                </div>
+            </div>
+
+            <div class = "three">
+                <div class = "content" id = "text">
+                    <p1> Educational</p1>
+                    
+                    <p2> Background</p2>
+                </div>
+
+                <div class = "display-image">
+                    <div class = "container">
+                        <img id = "school1" src = "./img/about/1.png">
+
+                        <p id = "text">
+                            <b>COLLEGE</b>
+                        </p>
+                    </div>
+
+                    <div class = "container">
+                        <img id = "school2" src = "./img/about/3.png">
+
+                        <p id = "text">
+                            <b>HIGH SCHOOL</b>
+                        </p>
+                    </div>
+
+                    <div class = "container">
+                        <img id = "school3" src = "./img/about/5.png">
+
+                        <p id = "text">
+                            <b>GRADE SCHOOL</b>
+                        </p>
+                    </div>
+
+                    <div class = "container">
+                        <img id = "school4" src = "./img/about/7.png">
+
+                        <p id = "text">
+                            <b>PRE-SCHOOL</b>
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "footer">
+                <div class = "icons">
+                    <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                        <img id = "email" src="./img/icons/1.png">
+                    </a>
+    
+                    <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                        <img id = "fb" src="./img/icons/2.png">
+                    </a>
+    
+                    <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                        <img id = "msgr" src="./img/icons/3.png">
+                    </a>
+    
+                    <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                        <img id = "ig" src="./img/icons/4.png">
+                    </a>
+    
+                    <a href = "sms:+639566546047" target="_blank">
+                        <img id = "sms" src="./img/icons/5.png">
+                    </a>
+    
+                    <a href = "tel:+639566546047" target="_blank">
+                        <img id = "call" src="./img/icons/6.png">
+                    </a>
+                </div>
+
+                <div class = "copyright" id = "text">
+                    Copyright © 2022 All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+        <!-- Credentials -->
+
+        <div class = "credentials" id = "credentials">
+            <div class = "one">
+                <div class = "title" id = "text">
+                    <p1> Non-stop Striving</p1>
+                    
+                    <p2> FOR THE FUTURE</p2>
+                </div>
+
+                <div class = "content" id = "text">
+                    <p>
+                        Continuously striving to be a better quizzer, a board exam topnotcher, and a successful engineer in the future!
+                    </p>
+                </div>
+            </div>
+
+            <div class = "two">
+                <div class = "title" id = "text">
+                    <p1> Various</p1>
+                    
+                    <p2> Awards </p2>
+                </div>
+                
+                <div class = "content" id = "text">
+                    <p>
+                        As a quizzer, Hanz loves to try joining various competitions ranging from school level to 
+                        international level. Here are some of the awards:
+                    </p>
+                </div>
+            </div>
+
+            <div class = "three">
+                <!-- first -->
+
+                <div class = "first" id = "first">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/1.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    AutomMathic 2022: In it to Win It
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Finalist, Rank 10/400+ 
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/2.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    sQUIZ Game
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Participant
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/3.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Marathon of Minds: The Red Spartan Engineering Cup 2022
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                First Runner Up 
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/4.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    48th Annual Nationwide Search for the Math Wizard
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Top 9/100+
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showmore1">
+                        <a href ="#second" onclick = "showmore1()" id = "firstB">
+                            SEE MORE...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- second -->
+
+                <div class = "second" id = "second">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/5.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    SQUEEEZE: The National EEE Competition and Convention 2021
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Participant
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/6.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Mathirang Mathibay 2021: The LOBBYRINTH
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Participant
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/7.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Pisay CARAGA Online Math Challenge
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Champion, Perfect Scorer
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/8.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Philippine International Math Olympiad
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Silver Medalist
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showmore2">
+                        <a href ="#third" onclick = "showmore2()" id = "secondB">
+                            SEE MORE...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- third -->
+
+                <div class = "third" id = "third">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/9.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    International Kangaroo Mathematics Competition
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Bronze Medalist
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/10.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    MCL Cup 2019: Advance Mathematics Quiz Show
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                First Runner Up
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/11.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Big Bay Bei International Math Olympiad 2020
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Silver Medalist
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/12.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Big Bay Bei International Math Olympiad 2021
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Merit Award/Honourable Mention
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showmore3">
+                        <a href ="#fourth" onclick = "showmore3()" id = "thirdB">
+                            SEE MORE...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- fourth-->
+
+                <div class = "fourth" id = "fourth">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/13.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    American Math Competition 2021
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Participant
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/14.png" id = "certi"> 
+
+                            <p id = "text">
+                                <b>
+                                    Asia International Math Olympiad
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Silver Medalist
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/15.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    23rd Philippine Math Olympiad
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Participant
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/16.png" id = "certi">
+
+                            <p id = "text">
+                                <b>
+                                    Regional Science and Technology Fair
+                                </b>
+                            </p>
+
+                            <p id = "text">
+                                Second Runner Up
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showless1">
+                        <a href ="#first" onclick = "showless1()" id = "fourthB">
+                            SEE LESS...
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "four">
+                <div class = "title" id = "text">
+                    <p1> Skills and</p1>
+                    
+                    <p2> QUALIFICATIONS </p2>
+                </div>
+
+                <div class = "content" id = "text">
+                    <p>
+                        Not only limited on academics, Hanz may also excel and like other things to!
+                    </p>
+                </div>
+            </div>
+
+            <div class = "five">
+                <!-- fifth -->
+
+                <div class = "fifth" id = "fifth">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/17.png" id = "certi">
+
+                            <p id = "text">
+                                2022 DOST Youth Excellence in Science Awardee
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/18.png" id = "certi">
+
+                            <p id = "text">
+                                Photomath Expert
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/19.png" id = "certi">
+
+                            <p id = "text">
+                                Tutor
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/20.png" id = "certi">
+
+                            <p id = "text">
+                                Web Developer
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showmore4">
+                        <a href ="#sixth" onclick = "showmore4()" id = "fifthB">
+                            SEE MORE...
+                        </a>
+                    </div>
+                </div>
+
+                <!-- second -->
+
+                <div class = "sixth" id = "sixth">
+                    <div class = "strip">
+                        <div class  = "container">
+                            <img src = "img/credentials/21.png" id = "certi">
+
+                            <p id = "text">
+                                Sketching
+                            </p>
+                        </div>
+
+                        <div class  = "container">
+                            <img src = "img/credentials/22.png" id = "certi">
+
+                            <p id = "text">
+                                Photography
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "button-container" id = "showless2">
+                        <a href ="#fifth" onclick = "showless2()" id = "sixthB">
+                            SEE LESS...
+                        </a>
+                    </div>
+                </div> 
+            </div>
+            
+            <div class = "footer">
+                <div class = "icons">
+                    <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                        <img id = "email" src="./img/icons/1.png">
+                    </a>
+    
+                    <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                        <img id = "fb" src="./img/icons/2.png">
+                    </a>
+    
+                    <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                        <img id = "msgr" src="./img/icons/3.png">
+                    </a>
+    
+                    <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                        <img id = "ig" src="./img/icons/4.png">
+                    </a>
+    
+                    <a href = "sms:+639566546047" target="_blank">
+                        <img id = "sms" src="./img/icons/5.png">
+                    </a>
+    
+                    <a href = "tel:+639566546047" target="_blank">
+                        <img id = "call" src="./img/icons/6.png">
+                    </a>
+                </div>
+
+                <div class = "copyright" id = "text">
+                    Copyright © 2022 All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+        <!-- Hobbies -->
+
+        <div class = "hobbies" id = "hobbies">
+            <div class = "one">
+                <div class = "content" id = "text">
+                    <p1> Do what you Love</p1>
+                    
+                    <p2> AND HAVE FUN</p2>
+
+                    <img src = "./img/display/H1.png">
+
+                    <p>
+                        In life there's a lot of ups and downs, we can feel tired but we must not quit but 
+                        know how to rest, because there is no success without failure.
+                    </p>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/display/H1.png">
+                </div>
+            </div>
+
+            <div class = "two">
+                <div class = "content" id = "text">
+                    <p1> Studying </p1>
+                    
+                    <p2> MATHEMATICS</p2>
+
+                    <img src = "./img/hobbies/math.png">
+
+                    <p>
+                        When Hanz is not busy, he prefers to solve challenging math problems.  As 
+                        mathematics is one of the keys in solving the mysteries of the universe.
+                    </p>
+                </div>
+
+                <div class = "display-image">
+                    <img src = "./img/hobbies/math.png">
+                </div>
+            </div>
+
+            <div class = "three">
+                <div class = "title" id = "text">
+                    <p1> Gaming</p1>
+                    
+                    <p2> VALORANT</p2>
+                </div>
+
+                <div class = "content" id = "text">
+                    <p>
+                        Not every time he only studies mathematics, Hanz also plays games. Most notably is VALORANT 
+                        an online FPS (First Person Shooting) game.
+                    </p>
+                </div>
+            </div>
+
+            <div class = "four">
+                <iframe src="https://www.youtube.com/embed/-HRwR4EPOqs" title="YouTube video player" 
+                frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; 
+                picture-in-picture" allowfullscreen></iframe>
+            </div>
+
+            <div class = "five">
+                <div class = "title" id = "text">
+                    <p1> Music</p1>
+                    
+                    <p2> JPOP</p2>
+                </div>
+
+                <div class = "content" id = "text">
+                    <p>
+                        While studying Hanz is always accompanied by his favorite genre of music which is 
+                        Japanese Pop Music. Here are top 5 JPOP song's of his choice:
+                    </p>
+                </div>
+            </div>
+
+            <div class = "six">
+                <div class = "iframe">
+                    <iframe id = "iframe" src="https://open.spotify.com/embed/track/6MbYvQMHFhsN2CFJm8HJJC?utm_source=generator" 
+                    frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+                </div>
+
+                <div class = "pre-next">
+                    <a id = "pre" href = "javascript:void(0)" onclick = "next4()">
+                        <img class = "previous" id = "previous" src = "img/icons/Scroll.png">
+                    </a>
+
+                    <a id = "nex" href = "javascript:void(0)" onclick = "next1()">
+                        <img class = "next" id = "next" src = "img/icons/Scroll.png">
+                    </a>
+                </div>
+
+                <div class = "playlist">
+                    <a class = "active" href = "javascript:void(0)" id = "sb1" onclick = "song1()">
+                        <div class = "song">
+                            <div class = "number">
+                                <p>
+                                    1
+                                </p>
+                            </div>
+
+                            <div class = "title-author">
+                                <p>
+                                    <b>
+                                        No Doubt
+                                    </b>
+                                </p>
+
+                                <p>
+                                    Official HIGE DANdism
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href = "javascript:void(0)" id = "sb2" onclick = "song2()">
+                        <div class = "song">
+                            <div class = "number">
+                                <p>
+                                    2
+                                </p>
+                            </div>
+
+                            <div class = "title-author">
+                                <p>
+                                    <b>
+                                        Stand by You
+                                    </b>
+                                </p>
+
+                                <p>
+                                    Official HIGE DANdism
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href = "javascript:void(0)" id = "sb3" onclick = "song3()">
+                        <div class = "song">
+                            <div class = "number">
+                                <p>
+                                    3
+                                </p>
+                            </div>
+
+                            <div class = "title-author">
+                                <p>
+                                    <b>
+                                        My Sweet Baby
+                                    </b>
+                                </p>
+
+                                <p>
+                                    ONE OK ROCK
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                    <a href = "javascript:void(0)" id = "sb4" onclick = "song4()">
+                        <div class = "song">
+                            <div class = "number">
+                                <p>
+                                    4
+                                </p>
+                            </div>
+
+                            <div class = "title-author">
+                                <p>
+                                    <b>
+                                        Departure
+                                    </b>
+                                </p>
+
+                                <p>
+                                    SCANDAL
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+
+                    <a href = "javascript:void(0)" id = "sb5" onclick = "song5()">
+                        <div class = "song">
+                            <div class = "number">
+                                <p>
+                                    5
+                                </p>
+                            </div>
+
+                            <div class = "title-author">
+                                <p>
+                                    <b>
+                                        Yoake No Ryuuseigun
+                                    </b>
+                                </p>
+
+                                <p>
+                                    SCANDAL
+                                </p>
+                            </div>
+                        </div>
+                    </a>
+                    
+                </div>
+            </div>
+            
+            <div class = "footer">
+                <div class = "icons">
+                    <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                        <img id = "email" src="./img/icons/1.png">
+                    </a>
+    
+                    <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                        <img id = "fb" src="./img/icons/2.png">
+                    </a>
+    
+                    <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                        <img id = "msgr" src="./img/icons/3.png">
+                    </a>
+    
+                    <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                        <img id = "ig" src="./img/icons/4.png">
+                    </a>
+    
+                    <a href = "sms:+639566546047" target="_blank">
+                        <img id = "sms" src="./img/icons/5.png">
+                    </a>
+    
+                    <a href = "tel:+639566546047" target="_blank">
+                        <img id = "call" src="./img/icons/6.png">
+                    </a>
+                </div>
+
+                <div class = "copyright" id = "text">
+                    Copyright © 2022 All Rights Reserved
+                </div>
+            </div>
+        </div>
+
+        <!-- Contact Me -->
+
+        <div class = "contact" id = "contact">
+            <div class = "one">
+                <div class = "title" id = "text">
+                    <p1>Reach me!</p1>
+                    
+                    <p2>CONTACTS</p2>
+                </div>
+
+                <div class = "maps">
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d6314.850319450125!2d121.04285361014921!3d14.377659734577108!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397d0e897eb8a3d%3A0xcf85d19e23338901!2sSM%20Center%20Muntinlupa!5e0!3m2!1sen!2sph!4v1655482121508!5m2!1sen!2sph"  allowfullscreen="" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+
+                <div class = "content" id = "text">
+                    <div class = "container">
+                        <div class = "info">
+                            <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                                <img id = "fb" src="./img/icons/2.png">
+                            </a>
+            
+                            <p>
+                                Hanz Baga
+                            </p>
+                        </div>
+
+                        <div class = "info">
+                            <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                                <img id = "msgr" src="./img/icons/3.png">
+                            </a>
+            
+                            <p>
+                                Hanz Baga
+                            </p>
+                        </div>
+                        
+                        <div class = "info">
+                            <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                                <img id = "ig" src="./img/icons/4.png">
+                            </a>
+            
+                            <p>
+                                @diakosibaga
+                            </p>
+                        </div>
+                    </div>
+
+                    <div class = "container">
+                        <div class = "info">
+                            <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                                <img id = "email" src="./img/icons/1.png">
+                            </a>
+            
+                            <p>
+                                hanz.baga@tup.edu.ph
+                            </p>
+                        </div>
+
+                        <div class = "info">
+                            <a href = "sms:+639566546047" target="_blank">
+                                <img id = "sms" src="./img/icons/5.png">
+                            </a>
+            
+                            <p>
+                                09566546047
+                            </p>
+                        </div>
+                        
+                        <div class = "info">
+                            <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                                <img id = "ig" src="./img/icons/4.png">
+                            </a>
+            
+                            <p>
+                                09566546047
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "two">
+                <div class = "title" id = "text">
+                    <p1> Know more!</p1>
+                    
+                    <p2> RESUME</p2>
+                </div>
+
+                <div class = "resume">
+                    <div style="position: relative; width: 100%; height: 0; padding-top: 141.4286%;
+                    padding-bottom: 48px; box-shadow: 0 2px 8px 0 rgba(63,69,81,0.16); margin-top: 1.6em; margin-bottom: 0.9em; overflow: hidden;
+                    border-radius: 8px; will-change: transform;">
+                     <iframe loading="lazy" style="position: absolute; width: 100%; height: 100%; top: 0; left: 0; border: none; padding: 0;margin: 0;"
+                       src="https:&#x2F;&#x2F;www.canva.com&#x2F;design&#x2F;DAE6euP8N60&#x2F;view?embed" allowfullscreen="allowfullscreen" allow="fullscreen">
+                     </iframe>
+                    </div>
+                </div>
+            </div>
+
+            <div class = "footer">
+                <div class = "icons">
+                    <a href = "mailto:hanz.baga@tup.edu.ph" target="_blank">
+                        <img id = "email" src="./img/icons/1.png">
+                    </a>
+    
+                    <a href = "https://www.facebook.com/mynameismathlover.23" target="_blank">
+                        <img id = "fb" src="./img/icons/2.png">
+                    </a>
+    
+                    <a href = "https://m.me/mynameismathlover.23" target="_blank">
+                        <img id = "msgr" src="./img/icons/3.png">
+                    </a>
+    
+                    <a href = "https://www.instagram.com/diakosibaga/" target="_blank">
+                        <img id = "ig" src="./img/icons/4.png">
+                    </a>
+    
+                    <a href = "sms:+639566546047" target="_blank">
+                        <img id = "sms" src="./img/icons/5.png">
+                    </a>
+    
+                    <a href = "tel:+639566546047" target="_blank">
+                        <img id = "call" src="./img/icons/6.png">
+                    </a>
+                </div>
+
+                <div class = "copyright" id = "text">
+                    Copyright © 2022 All Rights Reserved
+                </div>
+            </div>
+        </div> 
+    </body>
+</html> 

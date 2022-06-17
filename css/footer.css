@@ -1,0 +1,41 @@
+/* Footer */
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 100px 0 0 0;
+    padding-bottom: 50px;
+}
+
+.footer .icons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer .icons img {
+    width: 30px;
+}
+
+.footer .copyright {
+    font-family: Lexend;
+    width: 100%;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+@media screen and (max-width: 350px) {
+    .footer .icons img {
+        width: 25px;
+    }
+
+    .footer .copyright {
+        font-size: 12px;
+    }
+
+}

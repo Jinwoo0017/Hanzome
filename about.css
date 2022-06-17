@@ -1,0 +1,238 @@
+/* One */
+.about .one{
+    display: flex;
+    width: 100%;
+    padding-top: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .one .content {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-left: 2%;
+}
+
+.about .one .content p1 {
+    font-family: Amsterdam;
+    font-size: 40px;
+}
+
+.about .one .content p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.about .one .content img {
+    display:none;
+    width: 70%;
+    margin-top:20px;
+}
+
+.about .one .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+.about .one .display-image {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 50%;
+    margin: 0 2%;
+}
+
+.about .one .display-image img {
+    width: 90%;
+}
+
+/* Two */
+
+.about .two{
+    display: flex;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .two .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-right: 2%;
+}
+
+.about .two .content p1 {
+    font-family: Amsterdam;
+    font-size: 40px;
+}
+
+.about .two .content p2 {
+    width: 70%;
+    text-align: center;
+    font-family: Valorant;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.about .two .content p {
+    font-family: Lexend;
+    width: 80%;
+    text-align: justify;
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+/* Three */
+
+.about .three{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding-top: 60px;
+    justify-content: center;
+    align-items: center;
+}
+
+.about .three .content {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: #000000;
+    margin-right: 2%;
+}
+
+.about .three .content p1 {
+    font-family: Amsterdam;
+    font-size: 40px;
+}
+
+.about .three .content p2 {
+    font-family: Valorant;
+    font-size: 40px;
+    margin-top: -20px;
+}
+
+.about .three .display-image {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 20px;
+}
+
+.about .three .display-image .container {
+    display: flex;
+    width: 20%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+}
+
+.about .three .display-image .container img {
+    width: 90%;
+}
+
+.about .three .display-image .container p {
+    width: 80%;
+    font-family: Lexend;
+    text-align: center;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+/* Responsive */
+
+/* Responsive */
+@media screen and (max-width: 800px) {
+    .about .one .content,  .about .two .content, .about .three .content{
+        width: 96%;
+    }
+
+    .about .one .content img {
+        display: block;
+    }
+
+    .about .one .display-image {
+        display: none;
+    }
+
+    .about .one .content p1, .about .one .content p2,
+    .about .three .content p1, .about .three .content p2 {
+        font-size: 35px;
+    }
+
+    .about .two .content p1 {
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about .two .content p2 {
+        width: 90%;
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .about .one .content p2, .about .two .content p2,
+    .about .three .content p2 {
+        margin-top:-10px;
+    }
+
+    .about .three .display-image {
+        flex-direction: column;
+    }
+
+    .about .three .display-image .container {
+        width: 70%;
+    }
+
+    .about .three .display-image .container img {
+        width: 80%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .about .one .content p1, .about .one .content p2,
+    .about .three .content p1, .about .three .content p2 {
+        font-size: 20px;
+    }
+
+    .about .two .content p1 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .about .two .content p2 {
+        font-size: 15px;
+        text-align: center;
+    }
+
+    .about .one .content p2, .about .two .content p2,
+    .about .three .content p2 {
+        margin-top:-10px;
+    }
+
+    .about .one .content p2, .about .two .content p2,
+    .about .three .content p2 {
+        margin-top:-5px;
+    }
+
+    .about .one .content p, .about .two .content p, .about .three .display-image .container p {
+        font-size: 12px;
+    }
+}

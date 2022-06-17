@@ -337,11 +337,6 @@
             margin-top:-10px;
         }
 
-        .hobbies .one .content p, .hobbies .two .content p,
-        .hobbies .three .content p, .hobbies .five .content p {
-            font-size:12px;
-        }
-
         .hobbies .three, .hobbies .five {
             flex-direction: column;
         }
@@ -379,6 +374,11 @@
 
         .hobbies .one .content p2, .hobbies .two .content p2 {
             margin-top:-5px;
+        }
+        
+                .hobbies .one .content p, .hobbies .two .content p,
+        .hobbies .three .content p, .hobbies .five .content p {
+            font-size:12px;
         }
 
         .hobbies .three .title p1, .hobbies .five .title p1,
